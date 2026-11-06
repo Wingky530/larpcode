@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ANDROID_NDK_VERSION: "28.2.13676358"
-      LARPCODE_KEYSTORE_PATH: ${{ runner.temp }}/larpcode.keystore
+      LARPCODE_KEYSTORE_PATH: /tmp/larpcode.keystore
       LARPCODE_KEYSTORE_PASSWORD: ${{ secrets.LARPCODE_KEYSTORE_PASSWORD }}
       LARPCODE_KEY_ALIAS: ${{ secrets.LARPCODE_KEY_ALIAS }}
       LARPCODE_KEY_PASSWORD: ${{ secrets.LARPCODE_KEY_PASSWORD }}
