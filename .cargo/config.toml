@@ -1,0 +1,8 @@
+[target.aarch64-linux-android]
+linker = "/data/data/com.termux/files/usr/bin/aarch64-linux-android-clang"
+rustflags = [
+    "-C",
+    "link-arg=-L/system/lib64",
+    "-C",
+    "link-arg=-L/data/data/com.termux/files/usr/lib",
+]

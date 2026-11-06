@@ -1,0 +1,24 @@
+[package]
+name = "larpcode-ffi"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+repository.workspace = true
+
+[lib]
+name = "larpcode_ffi"
+crate-type = ["cdylib"]
+
+[features]
+cli = ["uniffi/cli"]
+
+[dependencies]
+larpcode-core.workspace = true
+uniffi.workspace = true
+
+[[bin]]
+name = "uniffi-bindgen"
+path = "src/bin/uniffi-bindgen.rs"
+required-features = ["cli"]

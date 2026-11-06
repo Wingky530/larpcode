@@ -1,0 +1,4 @@
+[bindings.kotlin]
+package_name = "dev.wingky530.larpcode.ffi"
+cdylib_name = "larpcode_ffi"
+android = true

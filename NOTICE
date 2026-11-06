@@ -1,0 +1,9 @@
+LarpCode
+Copyright 2026 LarpCode contributors
+
+This product includes software developed by the LarpCode project.
+
+Third-party components:
+- JNA, licensed under LGPL-2.1-or-later or Apache-2.0 (used under Apache-2.0).
+- UniFFI, licensed under MPL-2.0.
+- Kotlin, AndroidX, and Jetpack Compose, licensed under Apache-2.0.
