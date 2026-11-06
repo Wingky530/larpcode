@@ -18,8 +18,8 @@ android {
         applicationId = "dev.wingky530.larpcode"
         minSdk = 26
         targetSdk = 37
-        versionCode = 2
-        versionName = "0.1.1-ime-spike"
+        versionCode = 3
+        versionName = "0.1.2-selection"
 
         ndk {
             abiFilters += listOf("arm64-v8a", "x86_64")
