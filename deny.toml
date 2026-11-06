@@ -1,5 +1,8 @@
 [advisories]
 yanked = "deny"
+ignore = [
+    { id = "RUSTSEC-2026-0374", reason = "basic-toml is a build-time dependency of uniffi-bindgen via askama; upstream has no fixed release yet." },
+]
 
 [licenses]
 unused-allowed-license = "allow"
